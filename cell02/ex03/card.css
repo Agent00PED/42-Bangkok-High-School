@@ -1,0 +1,58 @@
+body {
+    font-family: monospace;
+    font-size: 15px;
+    background: url(https://bit.ly/3fYN1iH) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    text-align: center;
+}
+
+.card {
+    max-width: 300px;
+    margin: auto;
+    box-shadow: 10px 8px rgb(63, 60, 60);
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.title {
+    font-size: 15px;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+}
+
+.link-contact {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.contact {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 13px;
+    color: wheat;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 91.5%;
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.contact:hover, a:hover {
+    opacity: 0.7;
+}
